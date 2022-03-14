@@ -1,0 +1,77 @@
+.header-container {
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.5rem 3.5rem;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
+}
+
+.header-container ul{
+    display: flex;
+    gap: 1.9rem;
+}
+
+.burger-menu {
+    font-size: 2rem;
+    border: 0;
+    background-color: transparent;
+    cursor: pointer;
+    display: none;
+}
+
+.header-name {
+    font-family: 'Syne', sans-serif;
+}
+
+.link-list {
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.nav-link {
+    color: #343A40;
+    text-decoration: none;
+}
+
+.main-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2.5rem;
+    max-width: 68.75rem;
+    margin: auto;
+}
+
+.main-pic {
+    height: 15rem;
+    width: 15rem;
+}
+
+.about-me{
+    width: 25rem;
+  padding: 0.625rem;
+  border-radius: 6px;
+  box-shadow: 0px 2px 15px 2px var(black);
+  
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.more-about {
+    padding: 1rem 6rem;
+}
+
+.more-about h2 {
+    text-align: center;
+    
+}
+
+.more-about p {
+    padding: 0.4rem;
+}
