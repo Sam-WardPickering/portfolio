@@ -8,7 +8,7 @@
     justify-content: space-between;
     padding: 0.2rem 3.5rem;
     box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
-    
+    background-color: whitesmoke;
 }
 
 .header-container ul{
@@ -45,6 +45,7 @@
     gap: 2.5rem;
     max-width: 68.75rem;
     margin: auto;
+    padding-top: 5rem;
 }
 
 .main-pic {
@@ -247,3 +248,112 @@ footer {
     width: 3rem;
     height: 3rem;
 }
+
+@media screen and (max-width: 720px) {
+    /*changes reflects on screen with a width of 720px and below*/
+    .header-container {
+        padding: 1.5rem 1rem;
+    }
+
+    .header-container ul {
+        position: fixed;
+        background-color: var(--bg-color);
+        flex-direction: column;
+        top: 86px;
+        left: 10%;
+        width: 80%;
+        text-align: center;
+        transform: translateX(120%);
+        transition: transform 0.5s ease-in;
+    }
+    
+    .header-container ul li {
+        margin: 8px;
+    }
+
+    .burger-menu {
+        display: block;
+    }
+    
+    .header-container ul.show {
+        transform: translateX(0);
+    }
+
+    .main-container {
+        margin-top: -1rem;
+        flex-direction: column;
+        gap: 0;
+        opacity: 100%;
+    }
+    
+    .main-pic{
+        height: 15rem;
+        width: 15rem;
+    }
+    
+    .about-me {
+        margin-top: 0rem;
+        width: 20.5rem;
+        
+    }
+
+    .about-header {
+        text-align: center;
+    }
+
+    .more-about {
+        margin-top: 2rem;
+        padding: 1rem 3.5rem;
+    }
+    
+    .more-about h2 {
+        text-align: center;
+    }
+    
+    .more-about p {
+        text-align: justify;
+    }
+
+    .icon {
+        width: 5.875rem;
+        height: 5.25rem;
+    }
+
+    .projects-container {
+        flex-direction: column;
+    }
+    
+    .project-container {
+        width: 20.875rem;
+    }
+
+    .contact-form-container {
+        max-width: 23.75rem;
+    }
+
+  }
+
+@media screen and (max-width: 420px) {
+    
+    .main-pic {
+        height: 10rem;
+        width: 10rem;
+    }
+
+    .icon {
+        width: 5.875rem;
+        height: 5.25rem;
+    }
+  
+    .about-me {
+      width: 18.3rem;
+    }
+  
+    .project-container {
+      width: 17.875rem;
+    }
+  
+    .contact-form-container {
+      max-width: 17.75rem;
+    }
+  } 
