@@ -6,7 +6,7 @@ export default function Contact() {
       <h2>Get In Touch</h2>
       <div className="contact-form-container">
         <div className="contact-form">
-          <form action="https://formspree.io/f/xyylngw" method="POST">
+          <form action="https://formspree.io/f/mpzblpao" method="POST">
             <div className="form-control">
               <label htmlFor="name">Name</label>
               <input
