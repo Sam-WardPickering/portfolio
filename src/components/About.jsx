@@ -1,6 +1,6 @@
 import React from "react";
 import sammy from '../images/me.png'
-
+import resume from "../images/samwp-cv.pdf"
 
 function About() {
 
@@ -13,7 +13,7 @@ function About() {
                     <p>
                     I am a full-stack developer with a keen interest in using my skills to work on meaningful projects with a positive real-world impact.
                     </p>
-                    <a href="">Download my resume</a>
+                    <a href={resume} download>Download my resume</a>
                 </div>
             </div>
         </>
