@@ -8,7 +8,7 @@
     justify-content: space-between;
     padding: 0.2rem 3.5rem;
     box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
-    background-color: whitesmoke;
+    background-color: #F0F6F6;
 }
 
 .header-container ul{
@@ -26,6 +26,7 @@
 
 .header-name {
     font-family: 'Syne', sans-serif;
+    color: #2C3333;
 }
 
 .link-list {
@@ -34,7 +35,7 @@
 }
 
 .nav-link {
-    color: #343A40;
+    color: #2C3333;
     text-decoration: none;
 }
 
@@ -42,19 +43,25 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 2.5rem;
-    max-width: 68.75rem;
+    gap: 5.5rem;
+    max-width: 75rem;
     margin: auto;
-    padding-top: 5rem;
+    padding-top: 7rem;
 }
 
 .main-pic {
-    height: 15rem;
-    width: 15rem;
+    width: 35rem;
+    /* height: 13rem;
+    width: 13rem; */
+    /* border-radius: 11px; */
+    /* border: solid 10px #F0F6F6;
+    box-shadow: 0 3px 10px rgba(169, 169, 169, 0.619); */
+    /* border-radius: 250px; */ 
 }
 
 .about-me{
     width: 25rem;
+    color: #2C3333;
   padding: 0.625rem;
   border-radius: 6px;
   box-shadow: 0px 2px 15px 2px var(black);
@@ -66,6 +73,7 @@ body {
 }
 
 .more-about {
+    margin-top: 15rem;
     padding: 1rem 6rem;
 }
 
@@ -82,11 +90,14 @@ body {
     max-width: 68.75rem;
     margin: auto;
     text-align: center;
-    margin-top: 2.5rem;
+    margin-top: 7rem;
+    color: #2C3333;
+    padding-top: 5rem;
 }
   
 .skill-header {
     margin-bottom: 1rem;
+    
 }
   
 .skills-wrapper img {
@@ -94,8 +105,8 @@ body {
 }
   
 .icon {
-    width: 11.875rem;
-    height: 11.25rem;
+    width: 7rem;
+    height: 7rem;
 }
 
 .icon-card {
@@ -109,12 +120,17 @@ body {
 .projects {
     background-color: var(--bg-color);
     padding: 32px 0;
-    margin-top: 2rem;
+    margin-top: 12rem;
 }
   
 .project-pic {
     width: 65%;
     height: 60%;
+}
+
+.resolute-pic {
+    width: 58%;
+    height:40%;
 }
   
 .projects-container {
@@ -130,9 +146,11 @@ body {
   
 .project-container {
     text-align: center;
-    width: 21.875rem;
+    width: 15rem;
     padding: 1rem;
 }
+
+
 
 .project-container p {
     padding: 0.4rem;
@@ -156,6 +174,7 @@ body {
 
 .contact {
     margin-top: 2rem;
+    padding-top: 5rem;
 }
   
 .contact h2 {
@@ -183,7 +202,7 @@ body {
 }
   
 .contact-form-container .input-field {
-    width: 100%;
+    width: 98.5%;
     padding-top: 10px;
     padding-bottom: 10px;
     border-radius: 5px;
@@ -191,6 +210,7 @@ body {
     border: 2px outset #343A40;
     font-size: 0.875rem;
     outline: none;
+    font-family: 'Roboto', sans-serif;
 }
 
 .input-field::placeholder {
@@ -212,7 +232,7 @@ body {
 }
 
 .submit-btn:hover {
-    background-color: lightgray;
+    background-color: #F0F6F6;
     border: 2px solid #1b1f22;
     cursor: pointer;
 }
@@ -249,6 +269,11 @@ footer {
     height: 3rem;
 }
 
+.resume-link {
+    text-decoration: none;
+    color: #c47e33;
+}
+
 @media screen and (max-width: 720px) {
     /*changes reflects on screen with a width of 720px and below*/
     .header-container {
@@ -257,7 +282,7 @@ footer {
 
     .header-container ul {
         position: fixed;
-        background-color: var(--bg-color);
+        background-color: whitesmoke;
         flex-direction: column;
         top: 86px;
         left: 10%;

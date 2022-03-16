@@ -18,9 +18,7 @@ export default function Skills() {
                 <a href="https://en.wikipedia.org/wiki/CSS" target="_blank"><img src={cssIcon} alt="" className="icon icon-card" /></a>
 
                 <a href="https://en.wikipedia.org/wiki/JavaScript" target="_blank"><img src={jsIcon} alt="" className="icon icon-card"/></a>
-            </div>
-
-            <div className="second-set">
+            
                 <a href="https://en.wikipedia.org/wiki/React_(JavaScript_library)" target="_blank"><img src={reactIcon} alt="" className="icon icon-card" /></a>
 
                 <a href="https://en.wikipedia.org/wiki/Git" target="_blank"><img src={gitIcon} alt="" className="icon icon-card" /></a>
