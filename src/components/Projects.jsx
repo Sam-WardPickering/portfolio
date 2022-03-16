@@ -8,7 +8,7 @@ export default function Projects() {
   return (
     <div className="projects" id="projects">
 
-      <h2 className="projects-title">Recent Projects</h2>
+      <h2 className="projects-title">Most Recent Projects</h2>
 
       <div className="projects-container">
 

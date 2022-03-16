@@ -12,7 +12,7 @@ import reduxIcon from "../icons/redux-colour.svg"
 export default function Skills() {
   return (
     <div className="skills" id="skills">
-        <h2>Primary Skills</h2>
+        <h2>Skills & Tools</h2>
         <div className="skills-wrapper">
             <div className="first-set">
                 

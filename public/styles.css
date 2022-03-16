@@ -51,6 +51,7 @@
 
 .main-pic {
     width: 35rem;
+    /* height: auto; */
     /* height: 13rem;
     width: 13rem; */
     /* border-radius: 11px; */
@@ -74,7 +75,7 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
-.more-about {
+/* .more-about {
     margin-top: 15rem;
     padding: 1rem 6rem;
 }
@@ -86,7 +87,7 @@ body {
 
 .more-about p {
     padding: 0.4rem;
-}
+} */
 
 
 .skills {
@@ -207,7 +208,7 @@ body {
   
 .contact-form-container textarea {
     min-height: 6.25rem;
-    font-size: 14px;
+    font-size: 0.875rem;;
 }
   
 .contact-form-container .input-field {
@@ -283,6 +284,9 @@ footer {
     color: #c47e33;
 }
 
+@media screen and (min-width: 721px) and (max-width: 1150) {
+
+}
 @media screen and (max-width: 720px) {
     /*changes reflects on screen with a width of 720px and below*/
     .header-container {
@@ -321,8 +325,8 @@ footer {
     }
     
     .main-pic{
-        height: 15rem;
         width: 15rem;
+        
     }
     
     .about-me {
@@ -335,7 +339,7 @@ footer {
         text-align: center;
     }
 
-    .more-about {
+    /* .more-about {
         margin-top: 2rem;
         padding: 1rem 3.5rem;
     }
@@ -346,19 +350,34 @@ footer {
     
     .more-about p {
         text-align: justify;
-    }
+    } */
 
     .icon {
-        width: 5.875rem;
-        height: 5.25rem;
+        width: 4rem;
+        height: 4rem;
+        
+    }
+
+    .projects {
+        margin-top: 2rem;
     }
 
     .projects-container {
         flex-direction: column;
+        padding-top:0;
     }
     
     .project-container {
         width: 20.875rem;
+    }
+
+    .skills {
+        margin-top: -3rem;
+    }
+
+    .contact {
+        margin-top: -1rem;
+
     }
 
     .contact-form-container {
