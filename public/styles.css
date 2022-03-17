@@ -27,6 +27,11 @@
 .header-name {
     font-family: 'Syne', sans-serif;
     color: #2C3333;
+    text-decoration: none;
+}
+
+.name-link {
+    text-decoration: none;
 }
 
 .link-list {
@@ -96,7 +101,7 @@ body {
     text-align: center;
     margin-top: 7rem;
     color: #2C3333;
-    padding-top: 5rem;
+    padding-top: 0rem;
 }
   
 .skill-header {
@@ -124,7 +129,7 @@ body {
 .projects {
     
     padding: 32px 0;
-    margin-top: 12rem;
+    margin-top: 5rem;
 }
   
 .project-pic {
@@ -184,7 +189,7 @@ body {
 .contact {
     color: #2C3333;
     margin-top: 2rem;
-    padding-top: 5rem;
+    padding-top: 4rem;
 }
   
 .contact h2 {
