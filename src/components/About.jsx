@@ -1,5 +1,4 @@
 import React from "react";
-import sammy from '../images/sammy.jpg'
 import resume from "../images/samwp-cv.pdf"
 import programmer from "../images/program.png"
 

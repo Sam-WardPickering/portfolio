@@ -27,7 +27,7 @@ export default function Footer() {
   return (
     <div>
     <footer>
-      <p className="copy">&copy; Copyright 2022</p>
+      <p className="copy">&copy; Copyright 2024</p>
       <p className="copy">
         Built by Sam Ward-Pickering
       </p>
