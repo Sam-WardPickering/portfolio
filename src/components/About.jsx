@@ -1,5 +1,5 @@
 import React from "react";
-import resume from "../images/samwp-cv.pdf"
+import resume from "../images/sam-wp-cv-2024.pdf"
 import programmer from "../images/program.png"
 
 function About() {
