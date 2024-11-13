@@ -1,5 +1,5 @@
 import React from "react";
-import resume from "../images/sam-wp-cv-2024.pdf"
+import resume from "../images/SamWardPickering_CV_2024.pdf"
 import programmer from "../images/program.png"
 
 function About() {
@@ -11,7 +11,7 @@ function About() {
                 <div className="about-me">
                     <h2 className="about-header">About Me</h2>
                     <p>
-                    I am a full-stack developer, creative technologist and recent graduate from Enspiral Dev Academy - an intensive full-stack programming bootcamp that incorporates soft skills and key agile principles and practices into the learning curriculum.
+                    I am a full-stack developer and creative technologist currently working at Accenture.
                     <br></br>
                     <br></br>
                     I also bring knowledge and experience from my roots as small business owner and filmmaker and I am excited to have the opportunity to combine my technical skills and knowledge with my creative background to collaborate on meaningful projects as a part of a team!
